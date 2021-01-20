@@ -1,0 +1,59 @@
+* {
+    font-family: et-line;
+}
+
+#what-we-do {
+    padding: 100px;
+}
+
+#about {
+    padding: 100px;
+    background: #f9f9f9;
+}
+
+#team {
+    padding: 100px;
+}
+
+#team h1 {
+    text-align: center;
+}
+
+#team p {
+    text-align: center;
+}
+
+#team h4 {
+    text-align: center;
+}
+
+#portfolio {
+    padding: 100px;
+    background: #f9f9f9;
+}
+
+#portfolio h1 {
+    text-align: center;
+}
+
+#portfolio p {
+    text-align: center;
+}
+
+#blog {
+    padding: 100px;
+}
+
+#blog h1 {
+    text-align: center;
+}
+
+#blog > p {
+    text-align: center;
+}
+
+#blog .card {
+    margin: 20px;
+    padding: 20px;
+    /* width: 25rem; */
+}

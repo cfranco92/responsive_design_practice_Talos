@@ -2,6 +2,11 @@
     font-family: et-line;
 }
 
+#navigation-bar {
+    position: sticky;
+    top: 0;
+}
+
 #what-we-do {
     padding: 100px;
 }
@@ -19,6 +24,10 @@
     text-align: center;
 }
 
+#team > p {
+    padding: 10px;
+}
+
 #team p {
     text-align: center;
 }
@@ -27,8 +36,12 @@
     text-align: center;
 }
 
+.team-section__row {
+    padding: 20px;
+}
+
 #portfolio {
-    padding: 100px;
+    padding: 80px;
     background: #f9f9f9;
 }
 
@@ -38,6 +51,10 @@
 
 #portfolio p {
     text-align: center;
+}
+
+.portfolio-image {
+    padding: 10px;
 }
 
 #blog {
@@ -56,4 +73,54 @@
     margin: 20px;
     padding: 20px;
     /* width: 25rem; */
+}
+
+#questions {
+    padding: 100px;
+    background: #f9f9f9;
+}
+
+#questions h1 {
+    text-align: center;
+}
+
+#questions > p {
+    text-align: center;
+}
+
+#testimonial {
+    padding: 100px;
+}
+
+#testimonial h1 {
+    text-align: center;
+}
+
+#testimonial > p {
+    text-align: center;
+}
+
+#get-in-touch {
+    padding: 100px;
+    background: #f9f9f9;
+}
+
+#get-in-touch h1 {
+    text-align: center;
+}
+
+#get-in-touch > p {
+    text-align: center;
+}
+
+#main-footer {
+    padding: 100px;
+}
+
+#main-footer h1 {
+    text-align: center;
+}
+
+#main-footer > p {
+    text-align: center;
 }

@@ -25,24 +25,26 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="assets/images/home-bg-2.jpg" class="d-block w-100" alt="...">
+          <img src="assets/images/home-bg.jpg" class="d-block w-100" alt="...">
           <!-- <div class="carousel-caption d-none d-md-block"> -->
-          <div class="carousel-caption d-md-block">
+          <div class="carousel-caption d-md-block" style="bottom: 250px;">
             <h1>Genius Web & Talos Inc.</h1>
-            <h5>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue
-              vulputate voluptate neque, curabitur dolor libero sodales.</h5>
-            <button>LEARN MORE</button>
-            <button>CONTACT US</button>
+            <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue
+              vulputate voluptate neque, curabitur dolor libero sodales.</p>
+            <button type="button" class="btn btn-outline-light">LEARN MORE</button>
+            <button type="button" class="btn btn-outline-light"
+              style="background: #62C6B0; border-color: #62C6B0;">CONTACT US</button>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="assets/images/home-bg.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-md-block">
+          <img src="assets/images/home-bg-2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block" style="bottom: 250px;">
             <h1>Genius Web & Talos Inc.</h1>
             <h5>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue
               vulputate voluptate neque, curabitur dolor libero sodales.</h5>
-            <button>LEARN MORE</button>
-            <button>CONTACT US</button>
+            <button type="button" class="btn btn-outline-light">LEARN MORE</button>
+            <button type="button" class="btn btn-outline-light"
+              style="background: #62C6B0; border-color: #62C6B0;">CONTACT US</button>
           </div>
         </div>
       </div>
@@ -52,35 +54,35 @@
 
   <!-- Nav Section -->
   <section id="navigation-bar">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        <a class="navbar-brand" href="#">Talos</a>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
           aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">Talos</a>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SERVICES</a>
+              <a class="nav-link" href="#what-we-do">SERVICES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link" href="#about">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">TEAM</a>
+              <a class="nav-link" href="#team">TEAM</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PORTFOLIO</a>
+              <a class="nav-link" href="#portfolio">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">BLOG</a>
+              <a class="nav-link" href="#blog">BLOG</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link" href="#get-in-touch">CONTACT</a>
             </li>
             <!-- <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -98,36 +100,66 @@
 
   <!-- Services Section -->
   <section id="what-we-do">
-    <h1>What we do</h1>
-    <p>Lorem ipsum dolor sit amet, maecenas edget vestibulum justo imperdiet.</p>
+    <div class="what-we-do__header">
+      <h1>What we do</h1>
+      <p>Lorem ipsum dolor sit amet, maecenas edget vestibulum justo imperdiet.</p>
+    </div>
 
-    <div class="container">
+    <div class="">
       <div class="row">
         <div class="col-12 col-sm-6 col-md-6">
-          <h2><i class="icon-laptop"></i> Brand Identity</h2>
-          <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate
-            voluptate
-            neque, curabitur dolor libero sodales vitrae elit massa.</p>
+          <div class="row">
+            <div class="col-1">
+              <i class="icon-laptop"></i>
+            </div>
+            <div class="col-11">
+              <h2> Brand Identity</h2>
+              <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate
+                voluptate
+                neque, curabitur dolor libero sodales vitrae elit massa.</p>
+            </div>
+          </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6">
-          <h2><i class="icon-focus"></i> Web Design</h2>
-          <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate
-            voluptate
-            neque, curabitur dolor libero sodales vitrae elit massa.</p>
+          <div class="row">
+            <div class="col-1">
+              <i class="icon-focus"></i>
+            </div>
+            <div class="col-11">
+              <h2> Web Design</h2>
+              <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate
+                voluptate
+                neque, curabitur dolor libero sodales vitrae elit massa.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-sm-6 col-md-6">
-          <h2><i class="icon-cloud"></i> Social Marketing</h2>
-          <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate
-            voluptate
-            neque, curabitur dolor libero sodales vitrae elit massa.</p>
+          <div class="row">
+            <div class="col-1">
+              <i class="icon-cloud"></i>
+            </div>
+            <div class="col-11">
+              <h2> Social Marketing</h2>
+              <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate
+                voluptate
+                neque, curabitur dolor libero sodales vitrae elit massa.</p>
+            </div>
+          </div>
         </div>
         <div class="col-12 col-sm-6 col-md-6">
-          <h2><i class="icon-basket"></i> CMS & eCommerce</h2>
-          <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate
-            voluptate
-            neque, curabitur dolor libero sodales vitrae elit massa.</p>
+          <div class="row">
+            <div class="col-1">
+              <i class="icon-basket"></i>
+            </div>
+            <div class="col-11">
+              <h2> CMS & eCommerce</h2>
+              <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate
+                voluptate
+                neque, curabitur dolor libero sodales vitrae elit massa.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -166,8 +198,10 @@
 
   <!-- Team Section -->
   <section id="team">
-    <h1>team member</h1>
-    <p>Lorem ipsum dolor sit amet, maecenas edger vestibulum justo imperdiet.</p>
+    <div class="team__header">
+      <h1>team member</h1>
+      <p>Lorem ipsum dolor sit amet, maecenas edger vestibulum justo imperdiet.</p>
+    </div>
     <div class="container">
       <div class="row team-section__row">
         <div class="col-12 col-sm-6 col-md-4">
@@ -206,7 +240,7 @@
         <div class="portfolio-image col-12 col-sm-6 col-md-4">
           <img src="./assets/images/portfolio-img3.jpg" class="img-fluid" alt="">
         </div>
-      <!-- </div>
+        <!-- </div>
       <div class="row"> -->
         <div class="portfolio-image col-12 col-sm-6 col-md-4">
           <img src="./assets/images/portfolio-img4.jpg" class="img-fluid" alt="">
@@ -314,11 +348,40 @@
   <section id="get-in-touch">
     <h1>Get in touch</h1>
     <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+
+    <form>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-6">
+          <input type="text" class="form-control" placeholder="Name">
+          <input type="text" class="form-control" placeholder="Email">
+          <input type="text" class="form-control" placeholder="Phone">
+        </div>
+        <div class="col-12 col-sm-6 col-md-6">
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <button type="button" class="btn btn-outline-light" style="background: #62C6B0; border-color: #62C6B0;">SHOOT
+          MESSAGE</button>
+      </div>
+    </form>
   </section>
 
   <footer id="main-footer">
     <p>Copyright © Talos HTML Template | All Rights Reserved.</p>
-    <div></div>
+    <div style="text-align: center; padding: 10px;">
+      <i class="icon-facebook" style="padding: 10px;"></i>
+      <i class="icon-twitter" style="padding: 10px;"></i>
+
+      <i class="icon-lifesaver" style="padding: 10px;"></i>
+
+      <i class="icon-laptop" style="padding: 10px;"></i>
+
+      <i class="icon-laptop" style="padding: 10px;"></i>
+
+      <i class="icon-googleplus" style="padding: 10px;"></i>
+
+    </div>
   </footer>
   <!-- /Get in touch Section -->
 

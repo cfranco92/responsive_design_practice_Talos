@@ -72,6 +72,25 @@
     padding: 100px;
 }
 
+@media screen and (max-width: 576px) {
+    #what-we-do {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+#what-we-do i {
+    font-size: 30px; 
+    padding-top: 7px;
+}
+
+#what-we-do strong {
+    color: #7bcdb8;
+}
+#what-we-do p {
+    color: #878787;
+}
+
 .what-we-do__header {
     margin-bottom: 60px;
 }
@@ -81,8 +100,32 @@
     background: #f9f9f9;
 }
 
+@media screen and (max-width: 576px) {
+    #about {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    #about {
+        padding-right: 180px;
+    }
+}
+
 #team {
     padding: 100px;
+}
+
+@media screen and (max-width: 576px) {
+    #team {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .team-section__row p {
+        padding-bottom: 30px;
+    }
 }
 
 .team__header {
@@ -106,13 +149,20 @@
     text-align: center;
 }
 
-.team-section__row {
+/* .team-section__row {
     padding: 20px;
-}
+} */
 
 #portfolio {
     padding: 80px;
     background: #f9f9f9;
+}
+
+@media screen and (max-width: 576px) {
+    #portfolio {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 #portfolio h1 {
@@ -135,6 +185,13 @@
     display: block;
 }
 
+@media screen and (max-width: 576px) {
+    #blog {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
 #blog h1 {
     text-align: center;
 }
@@ -148,11 +205,19 @@
     margin-bottom: 20px;
     padding: 20px;
     /* width: 25rem; */
+    height: 90%;
 }
 
 #questions {
     padding: 100px;
     background: #f9f9f9;
+}
+
+@media screen and (max-width: 576px) {
+    #questions {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 #questions h1 {
@@ -181,6 +246,20 @@
     background: #f9f9f9;
 }
 
+@media screen and (max-width: 576px) {
+    #get-in-touch {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #get-in-touch button {
+        text-align: center;
+        padding-left: 120px;
+        padding-right: 120px;
+        margin-top: 10px;
+    }
+}
+
 #get-in-touch h1 {
     text-align: center;
 }
@@ -199,14 +278,14 @@
 @media screen and (min-width: 577px) {
     #get-in-touch button {
         text-align: center;
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left: 120px;
+        padding-right: 120px;
         margin-top: 10px;
     }
 }
 
 #main-footer {
-    padding: 100px;
+    padding: 50px;
 }
 
 #main-footer h1 {

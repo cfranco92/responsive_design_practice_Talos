@@ -11,8 +11,8 @@
 .carousel-caption button {
     margin: 4px;
     margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .carousel-button {
@@ -45,6 +45,29 @@
     z-index: 1;
 }
 
+.active, .btn:hover {
+    color: #62C6B0 !important;
+    /* background-color: #62C6B0; */
+}
+
+@media screen and (min-width: 577px) {
+    .navbar {
+        padding-left: 80px;
+        padding-right: 80px;
+        font-size: 12px;
+    }
+}
+
+.navbar-light .navbar-toggler {
+    color: #62C6B0 !important;
+    border-color: rgba(0,0,0,0);
+}
+
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(98, 198, 176, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
 #what-we-do {
     padding: 100px;
 }
@@ -54,7 +77,7 @@
 }
 
 #about {
-    padding: 100px;
+    padding: 70px;
     background: #f9f9f9;
 }
 
@@ -98,6 +121,7 @@
 
 #portfolio p {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .portfolio-image {
@@ -137,6 +161,7 @@
 
 #questions > p {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 #testimonial {
@@ -162,12 +187,22 @@
 
 #get-in-touch > p {
     text-align: center;
+    margin-bottom: 60px;
 }
 
 #get-in-touch input, 
 #get-in-touch textarea {
     background: #f9f9f9;
     margin: 10px;
+}
+
+@media screen and (min-width: 577px) {
+    #get-in-touch button {
+        text-align: center;
+        padding-left: 150px;
+        padding-right: 150px;
+        margin-top: 10px;
+    }
 }
 
 #main-footer {

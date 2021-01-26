@@ -41,6 +41,9 @@ body {
     .carousel-button-2 {
         visibility: hidden;
     }
+    .w-100 {
+        width: 250% !important;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px) {
@@ -57,7 +60,7 @@ body {
     z-index: 1;
 }
 
-.active, .btn:hover {
+#navigation-bar .active, .btn:hover {
     color: #62C6B0 !important;
     /* background-color: #62C6B0; */
 }
@@ -278,164 +281,64 @@ body {
     margin-bottom: 50px;
 }
 
-#testimonial {
-    padding: 100px;
-}
-
-#testimonial h1 {
+#testimonial-section h2 {
     text-align: center;
 }
 
-#testimonial>p {
+#testimonial-section > p {
     text-align: center;
 }
 
-/* COPY FROM */
-
-#testimonial .card {
-    margin: 0 auto;
-    border: none;
+#testimonial-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-#testimonial .card img {
-    height: 60px;
-    width: 60px;
-}
-
-#testimonial .card .carousel-item {
-    min-height: 230px;
-}
-
-#testimonial .card .carousel-caption {
-    padding: 0;
-    right: 15px;
-    left: 15px;
-    top: 15px;
-    color: #3d3d3d;
-    /* border: 1px solid #ccc; */
-    min-height: 175px;
-    padding: 15px;
-}
-
-#testimonial .card .carousel-caption .col-sm-3 {
-    display: flex;
-    align-items: center;
-}
-
-#testimonial .card .carousel-caption .col-sm-9 {
-    text-align: left;
-}
-
-#testimonial .card .carousel-control-prev, .card .carousel-control-next {
-    color: #3d3d3d !important;
-    opacity: 1 !important;
-}
-
-#testimonial .carousel-control-prev-icon, .carousel-control-next-icon {
-    background-image: none;
-    color: #fff;
+#testimonial-section .carousel-indicators li{
+    /* background-image: none;
+    color: #fff; */
     font-size: 14px;
-    background-color:#62C6B0;
-    border-radius: 20px;
+    background-color:#62C6B0 !important;
+    border-radius: 100px !important;
     height: 20px;
-    /* line-height: 32px; */
+    line-height: 32px;
     width: 20px;
 }
 
-#testimonial .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
-    opacity: 0.85;
-}
-
-#testimonial .carousel-control-prev {
-    left: 40%;
-    top: 110%;
-}
-
-#testimonial .carousel-control-next {
-    right: 40%;
-    top: 110%;
-}
-
-#testimonial .midline {
-    width: 60px;
-    border-top: 1px solid #d43025;
-}
-
-#testimonial .carousel-caption h2 {
-    font-size: 16px;
-    padding-top: 20px;
-}
-
-#testimonial .carousel-caption h2 span {
-    color: #cd3a54;
-}
-
-@media (min-width: 320px) and (max-width: 575px) {
-    #testimonial .carousel-caption {
-        position: relative;
-    }
-    #testimonial .card .carousel-caption {
-        left: 0;
-        top: 0;
-        margin-bottom: 15px;
-    }
-    #testimonial .card .carousel-caption img {
-        /* margin: 0 auto; */
-    }
-    #testimonial .carousel-control-prev {
-        left: 35%;
-        top: 105%;
-    }
-    #testimonial .carousel-control-next {
-        right: 35%;
-        top: 105%;
-    }
-    #testimonial .card .carousel-caption h3 {
-        margin-top: 0;
-        font-size: 16px;
-        font-weight: 700;
-    }
-    #testimonial {
-        padding: 20px;
-        padding-bottom: 50px;
-        padding-top: 60px;
+@media screen and (min-width: 577px) {
+    #testimonial-section {
+        margin-right: 100px;
+        margin-left: 100px;
     }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    #testimonial .carousel-caption {
-        position: relative;
+@media screen and (max-width: 576px) {
+    #testimonial-section {
+        padding-right: 15px;
+        padding-left: 15px;
     }
-    #testimonial .card .carousel-caption {
-        left: 0;
-        top: 0;
-        margin-bottom: 15px;
-    }
-    #testimonial .card .carousel-caption img {
-        margin: 0 auto;
-    }
-    #testimonial .card .carousel-caption h3, .card .carousel-caption small {
-        text-align: center;
-    }
-    #testimonial .carousel-control-prev {
-        left: 35%;
-        top: 105%;
-    }
-    #testimonial .carousel-control-next {
-        right: 35%;
-        top: 105%;
+    #testimonial-section .carousel-indicators{
+        top: 280px !important;
     }
 }
 
-@media (min-width: 767px) and (max-width: 991px) {
-    #testimonial .card .carousel-caption h3 {
-        margin-top: 0;
-        font-size: 16px;
-        font-weight: 700;
-    }
+#testimonial-section li{
+    background-color: green !important;
 }
 
-/* /COPY FROM */
+#testimonial-section .carousel-indicators{
+    top: 200px;
+}
+
+#testimonial-section .carousel-item{
+    /* padding-left: 25%; */
+    margin-top: 5%;
+}
+
+#testimonial-section .card{
+    /* border-color: white; */
+    border: none;
+}
 
 #get-in-touch {
     padding: 100px;

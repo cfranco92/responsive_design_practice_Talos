@@ -23,7 +23,7 @@
 <body>
   <!-- Carousel Section -->
   <section id="carouselSection">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="assets/images/home-bg-2.jpg" class="d-block w-100" alt="...">
@@ -313,12 +313,14 @@
             <div id="flush-collapse" class="card-text accordion-collapse collapse" aria-labelledby="flush-heading"
               data-bs-parent="#accordionFlushExample">
               <p>
-                Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.
+                Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate
+                voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas
+                eget vestibulum justo imperdiet.
               </p>
               <p>
                 Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.
               </p>
-          </div>
+            </div>
           </div>
         </div>
       </div>
@@ -332,7 +334,9 @@
             <div id="flush-collapseTwo" class="card-text accordion-collapse collapse" aria-labelledby="flush-headingTwo"
               data-bs-parent="#accordionFlushExample">
               <p>
-                Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.
+                Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate
+                voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas
+                eget vestibulum justo imperdiet.
               </p>
               <p>
                 Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.
@@ -366,107 +370,88 @@
   </section>
   <!-- /Questions Section -->
 
-  <!-- Testimonial Words -->
-  <section id="testimonial">
-    <h1>Testimonial Words</h1>
+  <!-- Testimonial Section -->
+  <section id="testimonial-section">
+    <h2>Testimonial Words</h2>
     <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
-    <div class="container">
-      <div class="card col-md-12 mt-2">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="100000">
-          <div class="w-100 carousel-inner mb-5" role="listbox">
-            <div class="carousel-item active">
-              <div class="bg"></div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="carousel-caption">
-                    <div class="row">
-                      <div class="col-sm-3 col-4 col-md-2 align-items-start">
-                        <img src="assets/images/testimonial-img1.jpg" alt="" class="rounded-circle img-fluid">
-                      </div>
-                      <div class="col-sm-9 col-8 col-md-10">
-                        <small>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus
-                          augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum
-                          dolor sit amet, maecenas eget vestibulum justo imperdiet.
-                        </small>
-                        <h2><b>John Doe</b></h2>
-                      </div>
-                    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="row">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card" style="width: auto">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-3 col-sm-1 col-md-1">
+                    <img src="assets/images/testimonial-img1.jpg" class="" alt="..." style="width: 60px;">
                   </div>
-                </div>
-                <!-- <div class="col-md-6">
-                        <div class="carousel-caption">
-                            <div class="row">
-                              <div class="col-sm-3 col-4 align-items-start">
-                                  <img src="https://s17.postimg.org/5q0yndefz/profile2.png" alt="" class="rounded-circle img-fluid">
-                              </div>
-                              <div class="col-sm-9 col-8">
-                                <h2>Helena Doe - <span>Architect</span></h2>
-                                <small>Well incremented. Comes with recommended workout. I'm using it to help with bladder leakage issues that I've been experiencing since a recent vasectomy.</small>
-                                <small class="smallest mute">- willi</small>
-                              </div>
-                            </div>
-                        </div>
-                      </div> -->
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="bg"></div>
-              <div class="row">
-                <div class="col-md-6 col-12">
-                  <div class="carousel-caption">
-                    <div class="row">
-                      <div class="col-sm-3 col-4 align-items-start">
-                        <img src="https://s17.postimg.org/7ulbog0n3/profile3.png" alt=""
-                          class="rounded-circle img-fluid">
-                      </div>
-                      <div class="col-sm-9 col-8">
-                        <h2>John Doe - <span>Ceo Mobile company</span></h2>
-                        <small>Well incremented. Comes with recommended workout. I'm using it to help with bladder
-                          leakage issues that I've been experiencing since a recent vasectomy.</small>
-                        <small class="smallest mute">- willi</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-12">
-                  <div class="carousel-caption">
-                    <div class="row">
-                      <div class="col-sm-3 col-4 align-items-start">
-                        <img src="https://s17.postimg.org/u6j4hu7gv/profile4.png" alt=""
-                          class="rounded-circle img-fluid">
-                      </div>
-                      <div class="col-sm-9 col-8">
-                        <h2>Helena Doe - <span>Architect</span></h2>
-                        <small>Well incremented. Comes with recommended workout. I'm using it to help with bladder
-                          leakage issues that I've been experiencing since a recent vasectomy.</small>
-                        <small class="smallest mute">- willi</small>
-                      </div>
-                    </div>
+                  <div class="col-9 col-sm-11 col-md-11">
+                    <p class="card-text"> <small>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet,
+                        wisi risus purus
+                        augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum
+                        dolor sit amet, maecenas eget vestibulum justo imperdiet.</small></p>
+                    <h5 class="card-title">John Doe</h5>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div class="carousel-item">
+            <div class="card" style="width: auto;">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-3 col-sm-1 col-md-1">
+                    <img src="assets/images/testimonial-img2.jpg" class="" alt="..." style="width: 60px;">
+                  </div>
+                  <div class="col-9 col-sm-11 col-md-11">
+                    <p class="card-text">
+                      <small>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus
+                        augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum
+                        dolor sit amet, maecenas eget vestibulum justo imperdiet.</small>
+                    </p>
+                    <h5 class="card-title">John Doe</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card" style="width: auto;">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-3 col-sm-1 col-md-1">
+                    <img src="assets/images/testimonial-img3.jpg" class="" alt="..." style="width: 60px;">
+                  </div>
+                  <div class="col-9 col-sm-11 col-md-11">
+                    <p class="card-text">
+                      <small>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus
+                        augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum
+                        dolor sit amet, maecenas eget vestibulum justo imperdiet.</small>
+                    </p>
+                    <h5 class="card-title">John Doe</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span> -->
+      </a>
     </div>
-
-    <!-- COPY FROM -->
-
-
-    <!-- /COPY FROM -->
-
-
   </section>
-  <!-- /Testimonial Words -->
+  <!-- /Testimonial Section -->
 
   <!-- Get in touch Section -->
   <section id="get-in-touch">

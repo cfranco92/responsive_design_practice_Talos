@@ -324,7 +324,12 @@ body {
 }
 
 #testimonial-section li{
-    background-color: green !important;
+    background-color: #62C6B0 !important;
+    display:block;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid #62C6B0;
 }
 
 #testimonial-section .carousel-indicators{
@@ -395,4 +400,15 @@ body {
 
 #main-footer>p {
     text-align: center;
+}
+
+#main-footer i {
+    font-size: 1em;
+    width: 2em;
+    text-align: center;
+    line-height: 2em;
+    background: black;
+    color: #fff;
+    border-radius: 1em;
+    margin: 10px;
 }

@@ -4,7 +4,7 @@
 
 body {
     font-family: et-line;
-    margin: 0;
+    /* margin: 0; */
 }
 
 .carousel-caption {
@@ -37,12 +37,13 @@ body {
     }
     .carousel-button {
         position: absolute;
+        text-align: center;
     }
     .carousel-button-2 {
-        visibility: hidden;
+        visibility: collapse;
     }
     .w-100 {
-        width: 250% !important;
+        width: 70rem !important;
     }
 }
 
@@ -352,9 +353,12 @@ body {
     }
     #get-in-touch button {
         text-align: center;
-        padding-left: 120px;
-        padding-right: 120px;
+        padding-left: 100px;
+        padding-right: 100px;
         margin-top: 10px;
+    }
+    .get-in-touch__form {
+        padding-right: 7%;
     }
 }
 

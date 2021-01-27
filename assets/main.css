@@ -18,6 +18,14 @@ body {
     color: #62C6B0 !important;
 }
 
+#carouselSection .carousel-button-2:visited,
+#carouselSection .carousel-button-2:active,
+#carouselSection .carousel-button-2:focus {
+    background-color: #eea122 !important;
+    border-color:#eea122 !important;
+}
+  
+
 .carousel-caption {
     padding: 5px;
     right: -3%;
@@ -46,10 +54,6 @@ body {
         right: -40%;
         margin-top: -4%;
     }
-    /* .carousel-button {
-        position: absolute;
-        text-align: center;
-    } */
     .carousel-button-2 {
         display: none;
     }
@@ -169,6 +173,57 @@ body {
         padding-right: 150px;
     }
 }
+
+/* HELP */
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.help {
+  position: relative;
+  width: auto;
+  max-width: auto;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  /* background: rgb(0, 0, 0); */
+  background: rgba(250, 250, 250, 0.877); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.help:hover .overlay {
+  opacity: 1;
+}
+
+#team i {
+    font-size: 0.5em;
+    width: 2.5em;
+    text-align: center;
+    line-height: 2.5em;
+    background: black;
+    color: #fff;
+    border-radius: 1.5em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* HELP */
 
 #team {
     padding: 10%;

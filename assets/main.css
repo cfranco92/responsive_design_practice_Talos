@@ -1,3 +1,4 @@
+/* By Cristian Franco Bedoya */
 * {
     box-sizing: border-box;
 }
@@ -645,6 +646,6 @@ body {
     background: black;
     color: #fff;
     border-radius: 1.5em;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }

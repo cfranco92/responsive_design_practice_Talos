@@ -4,7 +4,7 @@
 
 body {
     font-family: et-line;
-    /* margin: 0; */
+    position: relative;
 }
 
 .carousel-caption {
@@ -35,16 +35,16 @@ body {
         right: -40%;
         margin-top: -4%;
     }
-    .carousel-button {
+    /* .carousel-button {
         position: absolute;
         text-align: center;
-    }
-    .carousel-button-2 {
-        visibility: collapse;
-    }
-    /* .w-100 {
-        width: 70rem !important;
     } */
+    .carousel-button-2 {
+        display: none;
+    }
+    .w-100 {
+        width: 70rem !important;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px) {
@@ -223,6 +223,60 @@ body {
 .portfolio-image {
     padding: 10px;
 }
+
+/* HELP */
+
+.portfolio_card i {
+    display: none;
+    margin-top: 40%;
+    margin-left: 42%;
+    vertical-align: middle;
+    text-align: center;
+    transform: rotate(90deg);
+    font-size: 1em;
+    width: 2.5em;
+    line-height: 2.5em;
+    background: #fff;
+    color: #62C6B0;
+    border-radius: 1.5em;
+}
+
+.portfolio_card:hover i {
+    display: block;
+}
+
+.portfolio_card .card-title {
+    display: none;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 18px;
+}
+
+.portfolio_card:hover h5 {
+    display: block;
+}
+
+.portfolio_card h5 {
+    margin-top: 12%;
+}
+
+.portfolio_card > p {
+    display: none;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 10px;
+}
+
+.portfolio_card:hover > p {
+    display: block;
+}
+
+.card_overlay:hover,
+.card_overlay:active {
+    background-color: rgba(98, 198, 176, 0.8);
+}
+
+/* HELP */
 
 #blog {
     padding: 50px;

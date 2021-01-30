@@ -27,10 +27,6 @@ b {
     color: black;
 }
 
-/* h2, h3, h4 {
-    color: black;
-} */
-
 /* CAROUSEL SECTION */
 
 #carouselSection a {
@@ -58,12 +54,12 @@ b {
     margin-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .carousel-caption p {
     color: white;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .carousel-button {
@@ -113,7 +109,7 @@ b {
 }
 
 #what-we-do i {
-    font-size: 30px;
+    font-size: 1.875rem;
     padding-top: 2px;
 }
 
@@ -122,7 +118,7 @@ b {
 }
 
 #what-we-do h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 #what-we-do p {
@@ -173,7 +169,7 @@ b {
     transition: .5s ease;
     opacity: 0;
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 15px;
     text-align: center;
 }
@@ -221,7 +217,7 @@ b {
 #team h3 {
     margin-top: 30px;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 /* PORTFOLIO SECTION */
@@ -244,7 +240,7 @@ b {
     text-align: center;
     margin-bottom: 50px;
     color: white;
-    font-size: 13px;
+    font-size: 0.813rem;
 }
 
 .portfolio-image {
@@ -258,7 +254,7 @@ b {
     vertical-align: middle;
     text-align: center;
     transform: rotate(90deg);
-    font-size: 1em;
+    font-size: 1rem;
     width: 2.5em;
     line-height: 2.5em;
     background: #fff;
@@ -274,7 +270,7 @@ b {
     display: none;
     vertical-align: middle;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .portfolio_card:hover h3 {
@@ -289,7 +285,7 @@ b {
     display: none;
     vertical-align: middle;
     text-align: center;
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 .portfolio_card:hover>p {
@@ -400,7 +396,7 @@ b {
 }
 
 #testimonial-section .carousel-indicators li {
-    font-size: 14px;
+    font-size: 0.875rem;
     background-color: #62C6B0 !important;
     border-radius: 100px !important;
     height: 10px;
@@ -443,7 +439,7 @@ b {
 }
 
 #testimonial-section2 .card p {
-    font-size: 16px;
+    font-size: 1rem;
     padding-left: 15px;
 }
 
@@ -456,7 +452,7 @@ b {
 }
 
 #testimonial-section2 .carousel-indicators li {
-    font-size: 14px;
+    font-size: 0.875rem;
     background-color: #62C6B0;
     border-radius: 100px;
     height: 10px;

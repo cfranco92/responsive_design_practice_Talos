@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-/* BODY */
-
 body {
     font-family: 'et-line', sans-serif;
     margin: 0;
@@ -16,7 +14,7 @@ body {
 }
 
 body p, body input, body textarea {
-    font-size: 14px;
+    font-size: 0.8rem;
     color: #9b9b9b;
 }
 
@@ -29,9 +27,9 @@ b {
     color: black;
 }
 
-h2, h3, h4 {
+/* h2, h3, h4 {
     color: black;
-}
+} */
 
 /* CAROUSEL SECTION */
 
@@ -279,11 +277,11 @@ h2, h3, h4 {
     font-size: 18px;
 }
 
-.portfolio_card:hover h5 {
+.portfolio_card:hover h3 {
     display: block;
 }
 
-.portfolio_card h5 {
+.portfolio_card h3 {
     margin-top: 12%;
 }
 
@@ -338,6 +336,10 @@ h2, h3, h4 {
     text-align: center;
 }
 
+#blog h3 {
+    font-size: 1rem;
+}
+
 #blog>p {
     text-align: center;
     margin-bottom: 50px;
@@ -360,6 +362,10 @@ h2, h3, h4 {
     text-align: center;
 }
 
+#questions h3 {
+    font-size: 1rem;
+}
+
 #questions>p {
     text-align: center;
     margin-bottom: 50px;
@@ -369,14 +375,19 @@ h2, h3, h4 {
     margin-right: 1%;
 }
 
+#questions .card-text {
+    padding-top: 0.5rem;
+    border: none;
+}
+
 /* TESTIMONIAL SECTION */
 
 #testimonial-section h2 {
     text-align: center;
 }
 
-#testimonial-section h5 {
-    font-size: 14px;
+#testimonial-section h3 {
+    font-size: 0.8rem;
 }
 
 #testimonial-section>p {
@@ -422,8 +433,9 @@ h2, h3, h4 {
     text-align: center;
 }
 
-#testimonial-section2 h5 {
-    font-size: 14px;
+#testimonial-section2 h3 {
+    font-size: 0.9rem;
+    padding-left: 0.8rem;
 }
 
 #testimonial-section2>p {
@@ -445,20 +457,13 @@ h2, h3, h4 {
 
 #testimonial-section2 .carousel-indicators li {
     font-size: 14px;
-    background-color: #62C6B0 !important;
-    border-radius: 100px !important;
+    background-color: #62C6B0;
+    border-radius: 100px;
     height: 10px;
     line-height: 32px;
     width: 10px;
-}
-
-#testimonial-section2 li {
-    background-color: #62C6B0 !important;
-    display: block;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
     border: 1px solid #62C6B0;
+    display: block;
 }
 
 #testimonial-section2 .carousel-indicators {

@@ -129,4 +129,7 @@
     #testimonial-section2 .carousel-indicators {
         top: 110% !important;
     }
+    #testimonial-section2 .card-title h3 {
+        font-size: 0.2rem;
+    }
 }

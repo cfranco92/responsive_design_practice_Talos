@@ -8,5 +8,5 @@ dataSpyList.forEach(function (dataSpyEl) {
     .refresh()
 })
 
-// var scrollSpyContentEl = document.getElementById('content')
-// var scrollSpy = bootstrap.ScrollSpy.getInstance(scrollSpyContentEl) // Returns a Bootstrap scrollspy instance
+var scrollSpyContentEl = document.getElementById('content')
+var scrollSpy = bootstrap.ScrollSpy.getInstance(scrollSpyContentEl) // Returns a Bootstrap scrollspy instance

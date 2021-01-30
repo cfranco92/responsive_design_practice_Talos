@@ -1,5 +1,12 @@
 /* By Cristian Franco Bedoya */
 
+:root {
+    --primary: #62C6B0;
+    --secundary: #eea122;
+    --white: #ffffff;
+    --section-color_2: #f9f9f9;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -7,7 +14,7 @@
 body {
     font-family: 'et-line', sans-serif;
     margin: 0;
-    background: #ffffff;
+    background: var(--white);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
@@ -35,12 +42,12 @@ b {
 }
 
 #carouselSection a:hover, #carouselSection .carousel-button:hover, #carouselSection .carousel-button-2:hover {
-    color: #62C6B0;
+    color: var(--primary);
 }
 
 #carouselSection .carousel-button-2:visited, #carouselSection .carousel-button-2:active, #carouselSection .carousel-button-2:focus {
-    background-color: #eea122;
-    border-color: #eea122;
+    background-color: var(--secundary);
+    border-color: var(--secundary);
 }
 
 .carousel-caption {
@@ -64,18 +71,18 @@ b {
 }
 
 .carousel-caption p {
-    color: white;
+    color: var(--white);
     font-size: 1.125rem;
 }
 
 .carousel-button {
-    border: 3px solid white;
+    border: 3px solid var(--white);
 }
 
 .carousel-button-2 {
-    background: #62C6B0;
-    border-color: #62C6B0;
-    border: 3px solid #62C6B0;
+    background: var(--primary);
+    border-color: var(--primary);
+    border: 3px solid var(--primary);
 }
 
 /* NAVIGATION BAR */
@@ -92,11 +99,11 @@ b {
 }
 
 #navigation-bar .active {
-    color: #62C6B0;
+    color: var(--primary);
 }
 
 .navbar-light .navbar-toggler {
-    color: white;
+    color: var(--white);
     border-color: rgba(0, 0, 0, 0);
 }
 
@@ -120,7 +127,7 @@ b {
 }
 
 #what-we-do strong {
-    color: #7bcdb8;
+    color: var(--primary);
 }
 
 #what-we-do h3 {
@@ -140,7 +147,7 @@ b {
 #about {
     padding: 70px;
     padding-top: 100px;
-    background: #f9f9f9;
+    background: var(--section-color_2);
 }
 
 /* Container needed to position the overlay. Adjust the width as needed */
@@ -170,7 +177,7 @@ b {
     width: 100%;
     transition: .5s ease;
     opacity: 0;
-    color: white;
+    color: var(--white);
     font-size: 1.25rem;
     padding: 15px;
     text-align: center;
@@ -226,7 +233,7 @@ b {
 
 #portfolio {
     padding: 80px;
-    background: #f9f9f9;
+    background: var(--section-color_2);
 }
 
 #portfolio h2 {
@@ -241,7 +248,7 @@ b {
 .card-img-overlay .card-text {
     text-align: center;
     margin-bottom: 50px;
-    color: white;
+    color: var(--white);
     font-size: 0.813rem;
 }
 
@@ -259,8 +266,8 @@ b {
     font-size: 1rem;
     width: 2.5em;
     line-height: 2.5em;
-    background: #fff;
-    color: #62C6B0;
+    background: var(--white);
+    color: var(--primary);
     border-radius: 1.5em;
 }
 
@@ -312,7 +319,7 @@ b {
     background-size: 100% auto;
     overflow: hidden;
     border: none;
-    color: #62C6B0;
+    color: var(--primary);
 }
 
 @keyframes animatedBackground {
@@ -353,7 +360,7 @@ b {
 
 #questions {
     padding: 100px;
-    background: #f9f9f9;
+    background: var(--section-color_2);
 }
 
 #questions h2 {
@@ -399,7 +406,7 @@ b {
 
 #testimonial-section .carousel-indicators li {
     font-size: 0.875rem;
-    background-color: #62C6B0;
+    background-color: var(--primary);
     border-radius: 100px;
     height: 10px;
     line-height: 32px;
@@ -407,12 +414,12 @@ b {
 }
 
 #testimonial-section li {
-    background-color: #62C6B0;
+    background-color: var(--primary);
     display: block;
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    border: 1px solid #62C6B0;
+    border: 1px solid var(--primary);
 }
 
 #testimonial-section .carousel-indicators {
@@ -455,12 +462,12 @@ b {
 
 #testimonial-section2 .carousel-indicators li {
     font-size: 0.875rem;
-    background-color: #62C6B0;
+    background-color: var(--primary);
     border-radius: 100px;
     height: 10px;
     line-height: 32px;
     width: 10px;
-    border: 1px solid #62C6B0;
+    border: 1px solid var(--primary);
     display: block;
 }
 
@@ -480,7 +487,7 @@ b {
 
 #get-in-touch {
     padding: 100px;
-    background: #f9f9f9;
+    background: var(--section-color_2);
 }
 
 #get-in-touch h2 {
@@ -493,18 +500,18 @@ b {
 }
 
 #get-in-touch input, #get-in-touch textarea {
-    background: #f9f9f9;
+    background: var(--section-color_2);
     margin: 10px;
 }
 
 .get-in-touch__button {
-    background: #62C6B0;
-    border-color: #62C6B0;
+    background: var(--primary);
+    border-color: var(--primary);
 }
 
 .get-in-touch__button:hover {
-    background: white;
-    color: #62C6B0;
+    background: var(--white);
+    color: var(--primary);
 }
 
 /* FOOTER */

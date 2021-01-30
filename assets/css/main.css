@@ -49,6 +49,12 @@ b {
     margin-top: 5%;
 }
 
+.carousel-item img {
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
 .carousel-caption button {
     margin: 4px;
     margin-top: 20px;

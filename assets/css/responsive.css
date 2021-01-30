@@ -1,6 +1,6 @@
 /* By Cristian Franco Bedoya */
 
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 200px) and (max-width: 575px) {
     /* CAROUSEL SECTION */
     .carousel-caption {
         right: -40%;
@@ -81,7 +81,7 @@
     }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
     /* NAVBAR  */
     .navbar {
         padding-left: 80px;
@@ -100,9 +100,6 @@
         padding-right: 120px;
         margin-top: 10px;
     }
-}
-
-@media screen and (min-width: 576px) and (max-width: 767px) {
     /* CAROUSEL SECTION */
     .carousel-caption {
         right: -40%;
@@ -132,5 +129,26 @@
     }
     #testimonial-section2 .card-title h3 {
         font-size: 0.2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 2600px) {
+    /* NAVBAR  */
+    .navbar {
+        padding-left: 80px;
+        padding-right: 80px;
+        font-size: 12px;
+    }
+    /* TESTIMONIAL SECTION */
+    #testimonial-section {
+        display: none;
+        margin: -140px;
+    }
+    /* GET IN TOUCH SECTION */
+    #get-in-touch button {
+        text-align: center;
+        padding-left: 120px;
+        padding-right: 120px;
+        margin-top: 10px;
     }
 }

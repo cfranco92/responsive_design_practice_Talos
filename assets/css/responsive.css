@@ -8,7 +8,7 @@
     .carousel-button-2 {
         display: none;
     }
-    .carousel-item img {
+    #carouselSection .carousel-item img {
         width: 70rem;
         position: relative;
         right: 80%;

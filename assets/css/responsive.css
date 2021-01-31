@@ -86,7 +86,7 @@
     .navbar {
         padding-left: 80px;
         padding-right: 80px;
-        font-size: 12px;
+        font-size: 0.75rem;
     }
     /* TESTIMONIAL SECTION */
     #testimonial-section {
@@ -107,10 +107,10 @@
     }
     /* WHAT WE DO SECTION */
     #what-we-do p {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
     #what-we-do h2 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
     #what-we-do i {
         font-size: 1.25rem;
@@ -137,7 +137,7 @@
     .navbar {
         padding-left: 80px;
         padding-right: 80px;
-        font-size: 12px;
+        font-size: 0.75rem;
     }
     /* TESTIMONIAL SECTION */
     #testimonial-section {

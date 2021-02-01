@@ -5,6 +5,7 @@
     --secundary: #eea122;
     --white: #ffffff;
     --section-color_2: #f9f9f9;
+    --black-bold: #000000E6;
 }
 
 * {
@@ -88,6 +89,10 @@ body i {
     z-index: 3;
 }
 
+.navbar-brand {
+    font-weight: bold;
+}
+
 .navbar-collapse {
     text-align: center;
 }
@@ -126,6 +131,7 @@ body i {
 
 #what-we-do h3 {
     font-size: 1.25rem;
+    font-weight: bold;
 }
 
 #what-we-do p {
@@ -146,10 +152,11 @@ body i {
 
 /* Container needed to position the overlay. Adjust the width as needed */
 
-.help {
+.team-verlay {
     position: relative;
     width: auto;
     max-width: auto;
+    text-align: center;
 }
 
 /* Make the image to responsive */
@@ -178,7 +185,7 @@ body i {
 
 /* When you mouse over the container, fade in the overlay title */
 
-.help:hover .overlay {
+.team-verlay:hover .overlay {
     opacity: 1;
 }
 
@@ -220,6 +227,10 @@ body i {
     margin-top: 30px;
     text-align: center;
     font-size: 1.25rem;
+}
+
+.team-role {
+    font-weight: bold;
 }
 
 /* PORTFOLIO SECTION */
@@ -397,6 +408,10 @@ body i {
     text-align: center;
 }
 
+#testimonial-section .card-title {
+    font-weight: bold;
+}
+
 #testimonial-section .carousel-indicators li {
     font-size: 0.875rem;
     background-color: var(--primary);
@@ -425,6 +440,11 @@ body i {
 
 #testimonial-section .card {
     border: none;
+    width: auto;
+}
+
+#testimonial-section .card img {
+    width: 60px;
 }
 
 #testimonial-section-2 h2 {
@@ -443,6 +463,10 @@ body i {
 #testimonial-section-2 .card p {
     font-size: 1rem;
     padding-left: 15px;
+}
+
+#testimonial-section-2 .card-title {
+    font-weight: bold;
 }
 
 #testimonial-section-2 {
@@ -474,6 +498,11 @@ body i {
 
 #testimonial-section-2 .card {
     border: none;
+    width: auto;
+}
+
+#testimonial-section-2 .card img {
+    width: 60px;
 }
 
 /* GET IN TOUCH SECTION */
@@ -531,6 +560,10 @@ body i {
     border-radius: 1.5em;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+#main-footer div {
+    text-align: center;
 }
 
 /* RESPONSIVE */

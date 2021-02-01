@@ -1,5 +1,5 @@
 var scrollSpy = new bootstrap.ScrollSpy(document.body, {
-    target: '#navbarTogglerDemo01'
+    target: '#navbar-toggler-demo-01'
 })
 
 var dataSpyList = [].slice.call(document.querySelectorAll('[data-bs-spy="scroll"]'))

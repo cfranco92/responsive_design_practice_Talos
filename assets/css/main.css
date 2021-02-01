@@ -30,22 +30,13 @@ body i {
     color: #9b9b9b;
 }
 
-/* b {
-    color: black;
-} */
-
 /* CAROUSEL SECTION */
-
-/* .main-header .carousel a {
-    color: inherit;
-    text-decoration: none;
-} */
 
 .main-header .carousel a:hover, .carousel-button:hover, .carousel-button-2:hover {
     color: var(--primary);
 }
 
-.carousel-button-2:active, .carousel-button-2:focus, .carousel-button-2:visited {
+.carousel-button-2:active, .carousel-button-2:focus {
     background-color: var(--secundary);
     border-color: var(--secundary);
     box-shadow: none;
@@ -175,7 +166,6 @@ body i {
     position: absolute;
     bottom: 0;
     background: rgba(250, 250, 250, 0.877);
-    /* Black see-through */
     color: #f1f1f1;
     width: 100%;
     transition: .5s ease;
@@ -437,25 +427,25 @@ body i {
     border: none;
 }
 
-#testimonial-section2 h2 {
+#testimonial-section-2 h2 {
     text-align: center;
 }
 
-#testimonial-section2 h3 {
+#testimonial-section-2 h3 {
     font-size: 0.9rem;
     padding-left: 0.8rem;
 }
 
-#testimonial-section2>p {
+#testimonial-section-2>p {
     text-align: center;
 }
 
-#testimonial-section2 .card p {
+#testimonial-section-2 .card p {
     font-size: 1rem;
     padding-left: 15px;
 }
 
-#testimonial-section2 {
+#testimonial-section-2 {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 60px;
@@ -463,7 +453,7 @@ body i {
     padding-bottom: 50px;
 }
 
-#testimonial-section2 .carousel-indicators li {
+#testimonial-section-2 .carousel-indicators li {
     font-size: 0.875rem;
     background-color: var(--primary);
     border-radius: 100px;
@@ -474,15 +464,15 @@ body i {
     display: block;
 }
 
-#testimonial-section2 .carousel-indicators {
+#testimonial-section-2 .carousel-indicators {
     top: 110%;
 }
 
-#testimonial-section2 .carousel-item {
+#testimonial-section-2 .carousel-item {
     margin-top: 5%;
 }
 
-#testimonial-section2 .card {
+#testimonial-section-2 .card {
     border: none;
 }
 
@@ -541,4 +531,159 @@ body i {
     border-radius: 1.5em;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 200px) and (max-width: 575px) {
+    /* CAROUSEL SECTION */
+    .carousel-caption {
+        right: -40%;
+    }
+    .carousel-button-2 {
+        display: none;
+    }
+    .main-header .carousel .carousel-item img {
+        width: 70rem;
+        position: relative;
+        right: 80%;
+        height: 100%;
+    }
+    /* WHAT WE DO SECTION */
+    #what-we-do {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    /* ABOUT SECTION */
+    #about {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    /* TEAM SECTION */
+    #team {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .team-section__row p {
+        padding-bottom: 30px;
+    }
+    /* PORTFOLIO SECTION */
+    #portfolio {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    /* BLOG SECTION */
+    #blog {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    /* QUESTIONS SECTION */
+    #questions {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* TESTIMONIAL SECTION */
+    #testimonial-section {
+        margin-left: 10px;
+        margin-right: 12px;
+        padding-bottom: 100px;
+    }
+    #testimonial-section .carousel-indicators {
+        top: 18.75rem;
+    }
+    #testimonial-section-2 {
+        padding-right: 15px;
+        padding-left: 15px;
+        display: none;
+        margin: -140px;
+    }
+    #testimonial-section-2 .carousel-indicators {
+        top: 280px;
+    }
+    /* GET IN TOUCH SECTION */
+    #get-in-touch {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #get-in-touch button {
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 10px;
+    }
+    .get-in-touch__form {
+        padding-right: 7%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    /* NAVBAR  */
+    .navbar {
+        padding-left: 80px;
+        padding-right: 80px;
+        font-size: 0.75rem;
+    }
+    /* TESTIMONIAL SECTION */
+    #testimonial-section {
+        display: none;
+        margin: -140px;
+    }
+    /* GET IN TOUCH SECTION */
+    #get-in-touch button {
+        text-align: center;
+        padding-left: 120px;
+        padding-right: 120px;
+        margin-top: 10px;
+    }
+    /* CAROUSEL SECTION */
+    .carousel-caption {
+        right: -40%;
+        margin-top: 0%;
+    }
+    /* WHAT WE DO SECTION */
+    #what-we-do p {
+        font-size: 0.75rem;
+    }
+    #what-we-do h2 {
+        font-size: 1.125rem;
+    }
+    #what-we-do i {
+        font-size: 1.25rem;
+        padding-top: 0.125rem;
+    }
+    /* ABOUT SECTION */
+    #about {
+        padding-right: 150px;
+    }
+    /* TESTIMONIAL SECTION */
+    #testimonial-section-2 {
+        padding-bottom: 50px;
+    }
+    #testimonial-section-2 .carousel-indicators {
+        top: 110%;
+    }
+    #testimonial-section-2 .card-title h3 {
+        font-size: 0.2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 2600px) {
+    /* NAVBAR  */
+    .navbar {
+        padding-left: 80px;
+        padding-right: 80px;
+        font-size: 0.75rem;
+    }
+    /* TESTIMONIAL SECTION */
+    #testimonial-section {
+        display: none;
+        margin: -140px;
+    }
+    /* GET IN TOUCH SECTION */
+    #get-in-touch button {
+        text-align: center;
+        padding-left: 120px;
+        padding-right: 120px;
+        margin-top: 10px;
+    }
 }

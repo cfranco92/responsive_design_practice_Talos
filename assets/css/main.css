@@ -5,7 +5,6 @@
     --secundary: #eea122;
     --white: #ffffff;
     --section-color_2: #f9f9f9;
-    --black-bold: #000000E6;
 }
 
 * {
@@ -80,6 +79,28 @@ body i {
     border: 3px solid var(--primary);
 }
 
+@media screen and (min-width: 200px) and (max-width: 575px) {
+    .carousel-caption {
+        right: -40%;
+    }
+    .carousel-button-2 {
+        display: none;
+    }
+    .main-header .carousel .carousel-item img {
+        width: 70rem;
+        position: relative;
+        right: 80%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .carousel-caption {
+        right: -40%;
+        margin-top: 0%;
+    }
+}
+
 /* NAVIGATION BAR */
 
 .navbar {
@@ -110,9 +131,25 @@ body i {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(98, 198, 176, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .navbar {
+        padding-left: 80px;
+        padding-right: 80px;
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 2600px) {
+    .navbar {
+        padding-left: 80px;
+        padding-right: 80px;
+        font-size: 0.75rem;
+    }
+}
+
 /* WHAT WE DO SECTION */
 
-#what-we-do {
+.what-we-do {
     padding: 100px;
 }
 
@@ -120,21 +157,21 @@ body i {
     padding-bottom: 30px;
 }
 
-#what-we-do i {
+.what-we-do i {
     font-size: 1.875rem;
     padding-top: 2px;
 }
 
-#what-we-do strong {
+.what-we-do strong {
     color: var(--primary);
 }
 
-#what-we-do h3 {
+.what-we-do h3 {
     font-size: 1.25rem;
     font-weight: bold;
 }
 
-#what-we-do p {
+.what-we-do p {
     color: #878787;
 }
 
@@ -142,15 +179,48 @@ body i {
     margin-bottom: 60px;
 }
 
+@media screen and (min-width: 200px) and (max-width: 575px) {
+    .what-we-do {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .what-we-do p {
+        font-size: 0.75rem;
+    }
+    .what-we-do h2 {
+        font-size: 1.125rem;
+    }
+    .what-we-do i {
+        font-size: 1.25rem;
+        padding-top: 0.125rem;
+    }
+}
+
 /* ABOUT SECTION */
 
-#about {
+.about {
     padding: 70px;
     padding-top: 100px;
     background: var(--section-color_2);
 }
 
-/* Container needed to position the overlay. Adjust the width as needed */
+@media screen and (min-width: 200px) and (max-width: 575px) {
+    .about {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .about {
+        padding-right: 150px;
+    }
+}
+
+/* TEAM SECTION */
 
 .team-verlay {
     position: relative;
@@ -159,15 +229,11 @@ body i {
     text-align: center;
 }
 
-/* Make the image to responsive */
-
 .image {
     display: block;
     width: 100%;
     height: auto;
 }
-
-/* The overlay effect - lays on top of the container and over the image */
 
 .overlay {
     position: absolute;
@@ -183,19 +249,15 @@ body i {
     text-align: center;
 }
 
-/* When you mouse over the container, fade in the overlay title */
-
 .team-verlay:hover .overlay {
     opacity: 1;
 }
 
-/* TEAM SECTION */
-
-#team {
+.team {
     padding: 10%;
 }
 
-#team i {
+.team i {
     font-size: 0.5em;
     width: 2.5em;
     text-align: center;
@@ -211,19 +273,19 @@ body i {
     margin-bottom: 50px;
 }
 
-#team h2 {
+.team h2 {
     text-align: center;
 }
 
-#team>p {
+.team>p {
     padding: 10px;
 }
 
-#team p {
+.team p {
     text-align: center;
 }
 
-#team h3 {
+.team h3 {
     margin-top: 30px;
     text-align: center;
     font-size: 1.25rem;
@@ -233,18 +295,28 @@ body i {
     font-weight: bold;
 }
 
+@media screen and (min-width: 200px) and (max-width: 575px) {
+    .team {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .team-section__row p {
+        padding-bottom: 30px;
+    }
+}
+
 /* PORTFOLIO SECTION */
 
-#portfolio {
+.portfolio {
     padding: 80px;
     background: var(--section-color_2);
 }
 
-#portfolio h2 {
+.portfolio h2 {
     text-align: center;
 }
 
-#portfolio p {
+.portfolio p {
     text-align: center;
     margin-bottom: 50px;
 }
@@ -309,16 +381,23 @@ body i {
     background-color: rgba(98, 198, 176, 0.8);
 }
 
+@media screen and (min-width: 200px) and (max-width: 575px) {
+    .portfolio {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
 /* BLOG SECTION */
 
-#blog {
+.blog {
     padding: 50px;
     padding-top: 100px;
     padding-bottom: 100px;
     display: block;
 }
 
-#blog .card:hover {
+.blog .card:hover {
     background-image: url(../images/hover-image.jpg);
     background-size: 100% auto;
     overflow: hidden;
@@ -335,84 +414,98 @@ body i {
     }
 }
 
-#blog .card:hover {
+.blog .card:hover {
     background-position: 0px 0px;
     background-repeat: repeat-x;
     animation: animatedBackground 10s linear infinite alternate;
 }
 
-#blog h2 {
+.blog h2 {
     text-align: center;
 }
 
-#blog h3 {
+.blog h3 {
     font-size: 1rem;
 }
 
-#blog>p {
+.blog>p {
     text-align: center;
     margin-bottom: 50px;
 }
 
-#blog .card {
+.blog .card {
     margin-bottom: 20px;
     padding: 20px;
     height: 90%;
 }
 
+@media screen and (min-width: 200px) and (max-width: 575px) {
+    .blog {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
 /* QUESTIONS SECTION */
 
-#questions {
+.questions {
     padding: 100px;
     background: var(--section-color_2);
 }
 
-#questions h2 {
+.questions h2 {
     text-align: center;
 }
 
-#questions h3 {
+.questions h3 {
     font-size: 1rem;
 }
 
-#questions>p {
+.questions>p {
     text-align: center;
     margin-bottom: 50px;
 }
 
-#questions i {
+.questions i {
     margin-right: 1%;
 }
 
-#questions .card-text {
+.questions .card-text {
     padding-top: 0.5rem;
     border: none;
 }
 
+@media screen and (min-width: 200px) and (max-width: 575px) {
+    .questions {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
 /* TESTIMONIAL SECTION */
 
-#testimonial-section {
+.testimonial-section {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-#testimonial-section h2 {
+.testimonial-section h2 {
     text-align: center;
 }
 
-#testimonial-section h3 {
+.testimonial-section h3 {
     font-size: 0.8rem;
 }
 
-#testimonial-section>p {
+.testimonial-section>p {
     text-align: center;
 }
 
-#testimonial-section .card-title {
+.testimonial-section .card-title {
     font-weight: bold;
 }
 
-#testimonial-section .carousel-indicators li {
+.testimonial-section .carousel-indicators li {
     font-size: 0.875rem;
     background-color: var(--primary);
     border-radius: 100px;
@@ -421,7 +514,7 @@ body i {
     width: 10px;
 }
 
-#testimonial-section li {
+.testimonial-section li {
     background-color: var(--primary);
     display: block;
     height: 300px;
@@ -430,46 +523,46 @@ body i {
     border: 1px solid var(--primary);
 }
 
-#testimonial-section .carousel-indicators {
+.testimonial-section .carousel-indicators {
     top: 200px;
 }
 
-#testimonial-section .carousel-item {
+.testimonial-section .carousel-item {
     margin-top: 5%;
 }
 
-#testimonial-section .card {
+.testimonial-section .card {
     border: none;
     width: auto;
 }
 
-#testimonial-section .card img {
+.testimonial-section .card img {
     width: 60px;
 }
 
-#testimonial-section-2 h2 {
+.testimonial-section-2 h2 {
     text-align: center;
 }
 
-#testimonial-section-2 h3 {
+.testimonial-section-2 h3 {
     font-size: 0.9rem;
     padding-left: 0.8rem;
 }
 
-#testimonial-section-2>p {
+.testimonial-section-2>p {
     text-align: center;
 }
 
-#testimonial-section-2 .card p {
+.testimonial-section-2 .card p {
     font-size: 1rem;
     padding-left: 15px;
 }
 
-#testimonial-section-2 .card-title {
+.testimonial-section-2 .card-title {
     font-weight: bold;
 }
 
-#testimonial-section-2 {
+.testimonial-section-2 {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 60px;
@@ -477,7 +570,7 @@ body i {
     padding-bottom: 50px;
 }
 
-#testimonial-section-2 .carousel-indicators li {
+.testimonial-section-2 .carousel-indicators li {
     font-size: 0.875rem;
     background-color: var(--primary);
     border-radius: 100px;
@@ -488,40 +581,83 @@ body i {
     display: block;
 }
 
-#testimonial-section-2 .carousel-indicators {
+.testimonial-section-2 .carousel-indicators {
     top: 110%;
 }
 
-#testimonial-section-2 .carousel-item {
+.testimonial-section-2 .carousel-item {
     margin-top: 5%;
 }
 
-#testimonial-section-2 .card {
+.testimonial-section-2 .card {
     border: none;
     width: auto;
 }
 
-#testimonial-section-2 .card img {
+.testimonial-section-2 .card img {
     width: 60px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 575px) {
+    .testimonial-section {
+        margin-left: 10px;
+        margin-right: 12px;
+        padding-bottom: 100px;
+    }
+    .testimonial-section .carousel-indicators {
+        top: 18.75rem;
+    }
+    .testimonial-section-2 {
+        padding-right: 15px;
+        padding-left: 15px;
+        display: none;
+        margin: -140px;
+    }
+    .testimonial-section-2 .carousel-indicators {
+        top: 280px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .testimonial-section {
+        display: none;
+        margin: -140px;
+    }
+    .testimonial-section-2 {
+        padding-bottom: 50px;
+    }
+    .testimonial-section-2 .carousel-indicators {
+        top: 110%;
+    }
+    .testimonial-section-2 .card-title h3 {
+        font-size: 0.2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 2600px) {
+    .testimonial-section {
+        display: none;
+        margin: -140px;
+    }
 }
 
 /* GET IN TOUCH SECTION */
 
-#get-in-touch {
+.get-in-touch {
     padding: 100px;
     background: var(--section-color_2);
 }
 
-#get-in-touch h2 {
+.get-in-touch h2 {
     text-align: center;
 }
 
-#get-in-touch>p {
+.get-in-touch>p {
     text-align: center;
     margin-bottom: 60px;
 }
 
-#get-in-touch input, #get-in-touch textarea {
+.get-in-touch input, #get-in-touch textarea {
     background: var(--section-color_2);
     margin: 10px;
 }
@@ -536,109 +672,12 @@ body i {
     color: var(--primary);
 }
 
-/* FOOTER */
-
-#main-footer {
-    padding: 50px;
-}
-
-#main-footer h2 {
-    text-align: center;
-}
-
-#main-footer>p {
-    text-align: center;
-}
-
-#main-footer i {
-    font-size: 0.8em;
-    width: 2.5em;
-    text-align: center;
-    line-height: 2.5em;
-    background: black;
-    color: #fff;
-    border-radius: 1.5em;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-#main-footer div {
-    text-align: center;
-}
-
-/* RESPONSIVE */
-
 @media screen and (min-width: 200px) and (max-width: 575px) {
-    /* CAROUSEL SECTION */
-    .carousel-caption {
-        right: -40%;
-    }
-    .carousel-button-2 {
-        display: none;
-    }
-    .main-header .carousel .carousel-item img {
-        width: 70rem;
-        position: relative;
-        right: 80%;
-        height: 100%;
-    }
-    /* WHAT WE DO SECTION */
-    #what-we-do {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    /* ABOUT SECTION */
-    #about {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    /* TEAM SECTION */
-    #team {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    .team-section__row p {
-        padding-bottom: 30px;
-    }
-    /* PORTFOLIO SECTION */
-    #portfolio {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    /* BLOG SECTION */
-    #blog {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    /* QUESTIONS SECTION */
-    #questions {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    /* TESTIMONIAL SECTION */
-    #testimonial-section {
-        margin-left: 10px;
-        margin-right: 12px;
-        padding-bottom: 100px;
-    }
-    #testimonial-section .carousel-indicators {
-        top: 18.75rem;
-    }
-    #testimonial-section-2 {
-        padding-right: 15px;
-        padding-left: 15px;
-        display: none;
-        margin: -140px;
-    }
-    #testimonial-section-2 .carousel-indicators {
-        top: 280px;
-    }
-    /* GET IN TOUCH SECTION */
-    #get-in-touch {
+    .get-in-touch {
         padding-left: 20px;
         padding-right: 20px;
     }
-    #get-in-touch button {
+    .get-in-touch button {
         text-align: center;
         padding-left: 100px;
         padding-right: 100px;
@@ -650,73 +689,49 @@ body i {
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
-    /* NAVBAR  */
-    .navbar {
-        padding-left: 80px;
-        padding-right: 80px;
-        font-size: 0.75rem;
-    }
-    /* TESTIMONIAL SECTION */
-    #testimonial-section {
-        display: none;
-        margin: -140px;
-    }
-    /* GET IN TOUCH SECTION */
-    #get-in-touch button {
+    .get-in-touch button {
         text-align: center;
         padding-left: 120px;
         padding-right: 120px;
         margin-top: 10px;
-    }
-    /* CAROUSEL SECTION */
-    .carousel-caption {
-        right: -40%;
-        margin-top: 0%;
-    }
-    /* WHAT WE DO SECTION */
-    #what-we-do p {
-        font-size: 0.75rem;
-    }
-    #what-we-do h2 {
-        font-size: 1.125rem;
-    }
-    #what-we-do i {
-        font-size: 1.25rem;
-        padding-top: 0.125rem;
-    }
-    /* ABOUT SECTION */
-    #about {
-        padding-right: 150px;
-    }
-    /* TESTIMONIAL SECTION */
-    #testimonial-section-2 {
-        padding-bottom: 50px;
-    }
-    #testimonial-section-2 .carousel-indicators {
-        top: 110%;
-    }
-    #testimonial-section-2 .card-title h3 {
-        font-size: 0.2rem;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 2600px) {
-    /* NAVBAR  */
-    .navbar {
-        padding-left: 80px;
-        padding-right: 80px;
-        font-size: 0.75rem;
-    }
-    /* TESTIMONIAL SECTION */
-    #testimonial-section {
-        display: none;
-        margin: -140px;
-    }
-    /* GET IN TOUCH SECTION */
-    #get-in-touch button {
+    .get-in-touch button {
         text-align: center;
         padding-left: 120px;
         padding-right: 120px;
         margin-top: 10px;
     }
+}
+
+/* FOOTER */
+
+.main-footer {
+    padding: 50px;
+}
+
+.main-footer h2 {
+    text-align: center;
+}
+
+.main-footer>p {
+    text-align: center;
+}
+
+.main-footer i {
+    font-size: 0.8em;
+    width: 2.5em;
+    text-align: center;
+    line-height: 2.5em;
+    background: black;
+    color: #fff;
+    border-radius: 1.5em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main-footer div {
+    text-align: center;
 }
